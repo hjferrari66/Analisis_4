@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Integral de línea en el plano complejo | Semana 2 - Integrales Complejos </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Hernán Javier Ferrari" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-1"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">Semana 2 - Integrales Complejos</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Análisis Complejo - Semana 2</a></li>
+   <li id="active"><a href="integral_de_lnea_en_el_plano_complejo.html" class="active no-ch">Integral de línea en el plano complejo</a></li>
+   <li><a href="teorema_de_cauchy_para_integrales_complejas.html" class="no-ch">Teorema de Cauchy para integrales complejas</a></li>
+   <li><a href="frmula_de_integral_de_cauchy.html" class="no-ch">Fórmula de integral de Cauchy</a></li>
+   <li><a href="derivadas_de_funciones_analticas.html" class="no-ch">Derivadas de funciones analíticas</a></li>
+   <li><a href="gua_de_ejercicios.html" class="no-ch">Guía de Ejercicios</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="teorema_de_cauchy_para_integrales_complejas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Integral de línea en el plano complejo</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id1">
+<div class="iDevice emphasis0">
+<div id="ta1_85" class="block iDevice_content">
+<p><span style="font-size: medium;">Podemos distinguir entre las integrales definidas y las indefinidas. Una indefinida será aquella cuya derivada es igual a una función analítica en una dada región. Invirtiendo las fórmulas de diferenciación podemos encontrar muchas integrales indefinidas.</span></p>
+<p><span style="font-size: medium;">Por su parte las integrales complejas definidas se las llama integrales de linea complejas y se escriben</span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><img src="eXe_LaTeX_math_9.gif" width="64" height="52" alt="integral definida compleja"  /> </span></p>
+<p><span style="font-size: medium;">donde el integrando f(z) se integra sobre una dada curva C o una porción de ella. Esta curva en el plano complejo se lo llama camino de integración. Representado paramétricamente resulta:</span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><img src="Selection_381.png" width="404" height="65" /></span></p>
+<p><span style="font-size: medium;">El sentido en el que t aumenta, es llamado el sentido positivo y se dice que la curva C está orientada según la parametrización de arriba.</span></p>
+<p><span style="font-size: medium;">Por <strong>ejemplo</strong> una porción de la recta y = 3x está dada por z(t) = t + i 3t  con 0 ≤ t<span> </span><span>≤ 2. La circunferencia de radio 4 centrada en el origen, </span></span><span style="font-size: medium; line-height: 1.5;">C: | z | = 4  se parametriza z(t) = 4 cos(t) + i 4 sen(t)  con -</span><span style="font-size: medium; line-height: 1.5;">π </span><span style="font-size: medium; line-height: 1.5;">≤ t</span><span style="font-size: medium; line-height: 1.5;"> </span><span style="font-size: medium; line-height: 1.5;">≤ π, recorrida en el sentido contrario a las agujas del reloj.</span></p>
+<p></p>
+<p><span style="font-size: medium;"> Asumiremos C como una curva suave, tiene en cada punto una derivada distinta de cero y continua. </span></p>
+<p><span style="font-size: medium;"><strong>Propiedades</strong>: La integral definida es <strong>lineal</strong>, se puede subdividir como suma de subintegrales de pedazos que conforman C, y al invertir el sentido de integración se invierte el signo de la integral. </span></p>
+<p></p>
+<p><strong><span style="font-size: medium;">Primer método. Caso en el que existe la integral indefinida</span></strong></p>
+<p><span style="font-size: medium;"><strong>Definimos</strong>: Un dominio D es simplemente conectado o conexo si toda curva simple cerrada (curva cerrada que no se corta a si misma) encierra solamente puntos de D. Ejemplo, un disco es simplemente conexo, un anillo no lo es.</span></p>
+<p><span style="font-size: medium;">  </span></p>
+<p><span style="font-size: medium;">Sea f(z) una función analítica en un dominio simplemente conexo D. Luego existe una integral indefinida en el dominio D, F(z) tal que F ' (z) = f(z) en D y para todos los caminos en D que unen los puntos z<sub>0</sub> y z<sub>1</sub> en D tendremos:</span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><img src="eXe_LaTeX_math_10.gif" width="192" height="65" alt="integral definida cuando exite la indefinida y simplemente conexa"  /></span></p>
+<p></p>
+<p><span style="font-size: medium;"><strong>Ejemplo</strong>:         <img src="Selection_382.png" width="303" height="46" /></span></p>
+<p></p>
+<p><strong><span style="font-size: medium;">Segundo método. Utilización de un camino.</span></strong></p>
+<p><span style="font-size: medium;">Este método no se limita a funciones analíticas.</span></p>
+<p><span style="font-size: medium;">Sea C una curva suave que se puede representar por z = z(t) con a ≤ t <span>≤ b. Sea f(z) una función continua sobre la curva C.</span></span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><img src="eXe_LaTeX_math_11.gif" width="295" height="64" alt="integral de linea"  /> </span></p>
+<p><span style="font-size: medium;">Pasos a seguir</span></p>
+<ul>
+<li><span style="font-size: medium;">Representamos la curva C en forma paramétrica z(t) <span>con a ≤ t </span><span>≤ b</span></span></li>
+<li><span style="font-size: medium;">Calculamos la derivada <img src="eXe_LaTeX_math_14.gif" width="72" height="26" alt="derivada de la parametrización"  /></span></li>
+<li><span style="font-size: medium;">Sustituimos z(t) en cada z de f(z)</span></li>
+<li><span style="font-size: medium;">Integramos sobre t</span></li>
+</ul>
+<p><span style="font-size: medium;"><strong>Ejemplo</strong>: Integramos 1/z sobre un circulo unitario centrado en el origen recorrido en el sentido antihorario. </span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><img src="eXe_LaTeX_math_16.gif" width="40" height="52" alt="integral"  />            con C:  |z| = 1</span></p>
+<p><span style="font-size: medium;">No podemos utilizar el primer método ya que 1/z no es analítica en z=0 y todo camino simplemente conexo que contenga al círculo unitario debe contener a z = 0 por lo que debemos utilizar el segundo método: </span></p>
+<ul>
+<li><span style="font-size: medium;">parametrizamos la curva z(t) = cos(t) + i sen(t) = e<sup>it</sup>    con    -π ≤  t  <span></span><span>≤ </span><span>π</span><span> (recorremos en sentido antihorario).</span></span></li>
+<li><span style="font-size: medium;"><span>Derivamos <img src="eXe_LaTeX_math_14.gif" width="72" height="26" alt="derivada de la parametrización"  />   = i <span>e</span><sup>it</sup><span>   (regla de la cadena)</span></span></span></li>
+<li><span style="font-size: medium;">Reemplazamos  <img src="eXe_LaTeX_math_23.gif" width="247" height="60" alt="integral"  /></span></li>
+</ul>
+<p></p>
+<p></p>
+<p><span style="font-size: medium;"><strong>Ejemplo</strong>: Integramos 1/z<sup>m</sup> con m un entero sobre un círculo de radio ρ centrado en z<sub>0</sub> recorrido en el sentido antihorario. </span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><img src="Selection_383.png" width="224" height="191" /></span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><img src="eXe_LaTeX_math_24.gif" width="104" height="52" alt="integral potencia"  />            con C:  |z - z<sub>0</sub>| = ρ</span></p>
+<p></p>
+<p></p>
+<ul>
+<li><span style="font-size: medium;">parametrizamos la curva z(t) = z<sub>0</sub> + <span>ρ </span>cos(t) + i <span>ρ </span>sen(t) =<span> z</span><sub>0</sub><span> + <span>ρ </span></span> e<sup>it</sup>    con    -π ≤  t  ≤ π (recorremos en sentido antihorario).</span></li>
+</ul>
+<ul>
+<li><span style="font-size: medium;">Luego  <img src="eXe_LaTeX_math_26.gif" width="304" height="25" alt="derivada de la parametrización"  />  </span></li>
+</ul>
+<p></p>
+<ul>
+<li style="text-align: center;"><span style="font-size: medium;"> <img src="eXe_LaTeX_math_36.gif" width="487" height="167" alt="integral"  /></span></li>
+</ul>
+<p></p>
+<p><strong><span style="font-size: medium;">Esta integral por lo tanto da cero para todo m ≠ -1 mientras que para m = -1 da como resultado 2 π i</span></strong></p>
+<p><span style="font-size: medium;"><strong>Nota</strong>: Por lo general una integral de línea de una función no analítica depende del camino de integración.</span></p>
+<p><span style="font-size: medium;">Calcular la integral de f(z) = Re(z) entre 0 y 1 + 2 i los los siguientes caminos</span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><img src="Selection_384.png" width="215" height="203" /></span></p>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Reconocimiento 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="teorema_de_cauchy_para_integrales_complejas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>
