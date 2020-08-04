@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+# Bienvenidos al Repositorio de Análisis 4 para Industriales
+
+Aquí van a encontrar los apuntes para leer de cada una de las unidades, las guías de de problemas como también algunos archivos con códigos en Python a resolver en cada una de las guias de problemas.
+
+Espero que encuentren el material aquí $\sum_{n=0}^{\infty} \frac{z^n}{n!}$ _puesto_ de vuestro agrado
 
 You can use the [editor on GitHub](https://github.com/hjferrari66/Analisis_4/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -23,7 +27,9 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and 
+
+![Image](./docs/LogoMateria.jpg)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
