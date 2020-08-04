@@ -2,7 +2,9 @@
 
 Aquí van a encontrar los apuntes para leer de cada una de las unidades, las guías de de problemas como también algunos archivos con códigos en Python a resolver en cada una de las guias de problemas.
 
-Espero que encuentren el material aquí $\sum_{n=0}^{\infty} \frac{z^n}{n!}$ _puesto_ de vuestro agrado
+Espero que encuentren el material aquí $$\sum_{n=0}^{\infty} \frac{z^n}{n!}$$ _puesto_     sea de vuestro agrado  :-D
+
+
 
 You can use the [editor on GitHub](https://github.com/hjferrari66/Analisis_4/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
