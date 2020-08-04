@@ -2,13 +2,18 @@
 
 Aquí van a encontrar los apuntes para leer de cada una de las unidades, las guías de de problemas como también algunos archivos con códigos en Python a resolver en cada una de las guias de problemas.
 
-Espero que encuentren el material aquí $$\sum_{n=0}^{\infty} \frac{z^n}{n!}$$ _puesto_     sea de vuestro agrado  :-D
+Espero que encuentren el material aquí $$\sum_{n=0}^{\infty} \frac{z^n}{n!}$$ _puesto_     sea de vuestro agrado  :smile:
 
 
 
 You can use the [editor on GitHub](https://github.com/hjferrari66/Analisis_4/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+![GitHub Logo](/docs/LogoMateria.png)
+
+Format: ![Alt Text](url)
+
 
 ### Markdown
 
@@ -31,7 +36,7 @@ Syntax highlighted code block
 
 [Link](url) and 
 
-![Image](./docs/LogoMateria.jpg)
+![Image](/docs/LogoMateria.jpg)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
