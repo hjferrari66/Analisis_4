@@ -1,22 +1,19 @@
 # Práctica 1 - Ejercicio 1  
 Modificar el código para calcular la raíz enésima de cualquier número complejo y graficarla   
 
-<img src="https://render.githubusercontent.com/render/math?math=\sqrt[n] {z}">
+<img src="https://render.githubusercontent.com/render/math?math=\Huge\sqrt[n] {z}">
 
 ```python
 import numpy as np
 import sympy as sym
 import matplotlib.pyplot as plt
 from IPython.display import display, Math
-```
-
+```  
 Utilizo la siguiente expresión para calcular a través de una función las raices enesimas de un número complejo   
 
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE\sqrt[n] {z}=\sqrt[n] {r}%20e^{i \frac{\theta%2B2 k \pi}{n}}">   
 
-<img src="https://render.githubusercontent.com/render/math?math=\LARGE w =  \sqrt[n] {z}  =  \sqrt[n] {r} \;   e^{i \frac{\theta + 2 k \pi}{n}}">  
-
-$$ \LARGE z = r e^{i\theta} \; \; \;   k \in Z \; \; \; 0 \leq k < n$$
-
+<img src="https://render.githubusercontent.com/render/math?math=z%20=%20r%20e^{i\theta} %20.%20.%20.%20.%20.%20 k\in Z %20.%20.%20.%20.%20.%20 0 \leq k < n">
 
 ```python
 def nroot(z, n):
@@ -42,31 +39,19 @@ nroot(-1 ,4)
 
     (0.7071067811865476+0.7071067811865476j)
 
-
-
-$\displaystyle (e^{\frac{i \pi}{4}})^{4} \Rightarrow -1$
-
+<img src="https://render.githubusercontent.com/render/math?math=\Large%20(e^{i \frac{\pi}{4}})^{4} \Rightarrow -1">
 
     (-0.7071067811865475+0.7071067811865476j)
 
-
-
-$\displaystyle (e^{\frac{3 i \pi}{4}})^{4} \Rightarrow -1$
-
+<img src="https://render.githubusercontent.com/render/math?math=\Large%20(e^{i \frac{3 \pi}{4}})^{4} \Rightarrow -1">
 
     (-0.7071067811865477-0.7071067811865475j)
 
-
-
-$\displaystyle (e^{- \frac{3 i \pi}{4}})^{4} \Rightarrow -1$
-
+<img src="https://render.githubusercontent.com/render/math?math=\Large%20(e^{-i \frac{3 \pi}{4}})^{4} \Rightarrow -1">
 
     (0.7071067811865474-0.7071067811865477j)
 
-
-
-$\displaystyle (e^{- \frac{i \pi}{4}})^{4} \Rightarrow -1$
-
+<img src="https://render.githubusercontent.com/render/math?math=\Large%20(e^{-i \frac{\pi}{4}})^{4} \Rightarrow -1">
 
 ![png](output_4_8.png)
 
