@@ -1,6 +1,8 @@
 # Práctica 1 - Ejercicio 1  
 Modificar el código para calcular la raíz enésima de cualquier número complejo y graficarla   
 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i %2B\pi} =x%2B1">
+
 $$\; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \;   \LARGE \sqrt[n] {z} $$
 
 
