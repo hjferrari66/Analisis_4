@@ -1,3 +1,5 @@
+# Resolución del Ejercicio 3 de la práctica 1
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
