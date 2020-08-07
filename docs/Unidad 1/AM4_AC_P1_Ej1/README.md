@@ -3,9 +3,6 @@ Modificar el código para calcular la raíz enésima de cualquier número comple
 
 <img src="https://render.githubusercontent.com/render/math?math=\sqrt[n] {z}">
 
-$$\; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \;   \LARGE  $$
-
-
 ```python
 import numpy as np
 import sympy as sym
@@ -15,7 +12,9 @@ from IPython.display import display, Math
 
 Utilizo la siguiente expresión para calcular a través de una función las raices enesimas de un número complejo   
 
-$$\LARGE w =  \sqrt[n] {z}  =  \sqrt[n] {r} \;   e^{i \frac{\theta + 2 k \pi}{n}}$$  
+
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE w =  \sqrt[n] {z}  =  \sqrt[n] {r} \;   e^{i \frac{\theta + 2 k \pi}{n}}">  
+
 $$ \LARGE z = r e^{i\theta} \; \; \;   k \in Z \; \; \; 0 \leq k < n$$
 
 
