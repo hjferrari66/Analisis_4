@@ -1,9 +1,10 @@
 # Práctica 2 - Ejercicio 1   
-Dada una función analítica $f(z)$, calcular $\int_{z_1}^{z_2} f(z) $  
+Dada una función analítica <img src="https://render.githubusercontent.com/render/math?math=\large f(z)">, calcular 
+<img src="https://render.githubusercontent.com/render/math?math=\large\int_{z_1}^{z_2} f(z)">
 - La integral no depende del camino
 - La integral sobre un camino cerrado es cero
-- Existe una función F(z) tal que $f(z) = \frac{dF(z)}{dz}$
-- $\int_{z_1}^{z_2} f(z) = F(z_2) - F(z_1)$
+- Existe una función F(z) tal que <img src="https://render.githubusercontent.com/render/math?math=\large f(z) = \frac{dF(z)}{dz}">
+- <img src="https://render.githubusercontent.com/render/math?math=\large \int_{z_1}^{z_2} f(z) = F(z_2) - F(z_1)">
 
 
 ```python
@@ -12,7 +13,8 @@ z, f, F = symbols('z f F')
 init_printing(use_unicode=True)
 ```
 
-En la siguiente celda defino una función que dada $f(z), z_1 y z_2$ calcula $F(z)$ y el valor de la integral
+En la siguiente celda defino una función que dada <img src="https://render.githubusercontent.com/render/math?math=\large f(z), z_1 y z_2"> calcula 
+<img src="https://render.githubusercontent.com/render/math?math=\large F(z)"> y el valor de la integral
 
 
 ```python
@@ -35,7 +37,7 @@ integral1(1/z**3,-1+2j,-3+1j)
 
 
 
-
+\int_{z_1}^{z_2} f(z) = F(z_2) - F(z_1)
 $\displaystyle -0.1 + 0.05 i$
 
 
