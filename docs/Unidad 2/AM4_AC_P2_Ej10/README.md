@@ -18,37 +18,30 @@ init_printing(use_unicode=True)
 ```
 
 Resuelvo el ejercicio 2e)  
-1) Escribo la parametrización de la curva  $C: z(t) = a \; cos(t) + I \; sin(t)$ con  $ a \leq t \leq b$ 
-
+1) Escribo la parametrización de la curva <img src="https://render.githubusercontent.com/render/math?math=\large C: z(t) = a %20 cos(t) %20%2b%20 I %20 sin(t)"> con <img src="https://render.githubusercontent.com/render/math?math=\large a \leq t \leq b">
 
 ```python
 z = a * cos(t) + I * sin(t)         # parametrizo la curva sobre la que integro
 ```
 
-2) Calculo la derivada de $z(t)$
+2) Calculo la derivada de *z(t)*
 
 
 ```python
 diff(z,t)                      # derivada de z(t)
 ```
 
+<img src="https://render.githubusercontent.com/render/math?math=\large \displaystyle - a%20\sin{\left(t \right)} %20 %2B %20 i %20 \cos{\left(t \right)}">
 
-
-
-$\displaystyle - a \sin{\left(t \right)} + i \cos{\left(t \right)}$
-
-
-
-3) Ingreso la $f(z)$ del ejercicio 
-
+3) Ingreso la *f(z)* del ejercicio 
 
 ```python
 f = re(z**2)                   # calculo f(z(t))
 ```
 
-4) Calculo la integral de $f(z)$ entre $z_1$ a $z_2$ por el camino sobre la curva $C$   
+4) Calculo la integral de *f(z)* entre *z1* a *z2* por el camino sobre la curva *C*   
 
-$$\int_{z_1}^{z_2} f(z) dz = \int_a^b f(z(t)) \dot z(t) dt$$
+<img src="https://render.githubusercontent.com/render/math?math=\large \int_{z_1}^{z_2} f(z) dz = \int_a^b f(z(t)) \dot z(t) dt">
 
 
 ```python
@@ -56,18 +49,11 @@ solucion=integrate(f*diff(z,t), (t, -pi/2, pi/2))    # calculos las integrales e
 solucion.simplify()
 ```
 
-
-
-
-$\displaystyle \frac{2 i \left(2 a^{2} - 1\right)}{3}$
-
-
-
+<img src="https://render.githubusercontent.com/render/math?math=\large \displaystyle \frac{2 i \left(2 a^{2} - 1\right)}{3}">
 
 ```python
 x = np.linspace(-np.pi, np.pi, 100)        # pasos para recorrer la curva parametrizada entre a y b, 0 y pi en este caso
 ```
-
 
 ```python
 for k in range(-3, 4):
@@ -84,12 +70,4 @@ for k in range(-3, 4):
     a =  2 ; integral =  4.66666666666667*I
     a =  3 ; integral =  11.3333333333333*I
 
-
-
 ![png](output_12_1.png)
-
-
-
-```python
-
-```
