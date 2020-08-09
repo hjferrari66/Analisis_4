@@ -8,8 +8,11 @@ Espero que encuentren el material aquí     <img src="https://render.githubuserc
 
 Utilice los siguientes vinculos para ir a las carpetas donde encontrará las guias de problemas y demás materiales, entre ellos los codigos para resolver los ejercicios propuestos para trabajar en Python.   
 
-- [Unidad 1](https://github.com/hjferrari66/Analisis_4/tree/master/docs/Unidad%201)
-- [Unidad 2](https://github.com/hjferrari66/Analisis_4/tree/master/docs/Unidad%202)
-- [Unidad 3](https://github.com/hjferrari66/Analisis_4/tree/master/docs/Unidad%203)
-- [Unidad 4](https://github.com/hjferrari66/Analisis_4/tree/master/docs/Unidad%204)
-- [Unidad 5](https://github.com/hjferrari66/Analisis_4/tree/master/docs/Unidad%205)
+* [Unidad 1](https://github.com/hjferrari66/Analisis_4/tree/master/docs/Unidad%201) Funciones, límites y derivadas.  
+  * [Guía de Problemas - Unidad 1](https://github.com/hjferrari66/Analisis_4/blob/master/docs/Unidad%201/AM4_AC_Guia1_Funciones_Limites_Derivadas.pdf)  
+  * [Resolución ejercicio 1 - Notebook Jupiter](https://github.com/hjferrari66/Analisis_4/blob/master/docs/Unidad%201/AM4_AC_P1_Ej1/AM4_AC_P1_Ej1.ipynb)  
+  * [Resolución ejercicio 3 - Notebook Jupiter](https://github.com/hjferrari66/Analisis_4/blob/master/docs/Unidad%201/AM4_AC_P1_Ej3/AM4_AC_P1_Ej3.ipynb)  
+* [Unidad 2](https://github.com/hjferrari66/Analisis_4/tree/master/docs/Unidad%202)
+* [Unidad 3](https://github.com/hjferrari66/Analisis_4/tree/master/docs/Unidad%203)
+* [Unidad 4](https://github.com/hjferrari66/Analisis_4/tree/master/docs/Unidad%204)
+* [Unidad 5](https://github.com/hjferrari66/Analisis_4/tree/master/docs/Unidad%205)
